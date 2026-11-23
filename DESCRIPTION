@@ -1,0 +1,15 @@
+Package: Hello
+Title: say hello
+Version: 0.0.0.9000
+Authors@R: 
+    person("Paulin", "Fournaux", , "first.last@example.com", role = c("aut", "cre"))
+Description: Say hello world.
+License: MIT + file LICENSE
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Imports: 
+    stringr (>= 1.6.0)
